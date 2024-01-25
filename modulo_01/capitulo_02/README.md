@@ -18,6 +18,17 @@ print("Hola, mundo!")
 
 En este ejemplo, la función print() muestra el texto "Hola, mundo!" en la consola. 
 
+Cuando se utilizan comillas simples ```''``` en lugar de comillas dobles ```""```, se tiene el mismo resultado. 
+
+```python
+print('Hola, mundo!')
+```
+
+```plain
+Hola mundo!
+```
+
+
 ### Imprimiendo otros tipos de datos
 
 Además de cadenas de texto la función print es capaz de imprimir números enteros y con parte decimas. También puede imprimir otros tipos de datos como **boolean**: ```True``` y ```False```
