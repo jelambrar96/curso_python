@@ -174,6 +174,29 @@ Donde la salida es la siguiente:
 line3
 ```
 
+## Comentarios 
+
+En Python, un comentario es una parte del código que no se ejecuta y se utiliza para hacer anotaciones o explicaciones sobre el código. Los comentarios son útiles para hacer que el código sea más legible para otros programadores (o para ti mismo en el futuro) y para explicar el propósito de ciertas partes del código.
+
+En Python, hay dos formas de hacer comentarios. El primero es usando el símbolo de numeral (#). Todo lo que sigue a este símbolo en la misma línea se considera un comentario y no se ejecutará. Por ejemplo:
+
+```python
+# Este es un comentario en Python
+print("Hola, mundo")  # Este también es un comentario
+
+```
+
+La segunda forma de hacer comentarios es utilizando tres comillas simples (```'''```) o tres comillas dobles (```"""```). Todo lo que esté dentro de estas comillas se considerará un comentario. Este tipo de comentario es útil para comentarios de varias líneas. Por ejemplo:
+
+```python
+'''
+Este es un comentario
+de varias líneas
+en Python
+'''
+print("Hola, mundo")
+```
+
 ### References
 
 - Your Guide to the Python print() Function. Real Pyth. https://realpython.com/python-print/
