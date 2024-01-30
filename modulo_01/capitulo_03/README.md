@@ -6,7 +6,7 @@ En este capítulo vamos a trabajar con las variables en Python.
 
 En programación, una variable es un **contenedor para almacenar datos**. Estos datos pueden ser de diferentes tipos, como números, cadenas de texto, listas, etc. Las variables se utilizan para almacenar información que puede cambiar durante la ejecución de un programa.
 
-En Python, crear una variable es muy sencillo. Simplemente eliges un nombre para la variable y luego le asignas un valor utilizando el operador de asignación (=). Por ejemplo:
+En Python, crear una variable es muy sencillo. Simplemente eliges un nombre para la variable y luego le asignas un valor utilizando el **operador de asignación** (`=`). Por ejemplo:
 
 ```python
 # Creando una variable llamada "edad" y asignándole el valor 25
