@@ -203,7 +203,7 @@ print(mayor_igual)  # Salida: False
    - `not` (negación)
 
 
-    ![Alt text](image.png)
+    ![Alt text](media/tablas_verdad.png)
 
    Ejemplos:
 
