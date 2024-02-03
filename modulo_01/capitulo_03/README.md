@@ -29,6 +29,24 @@ En el ejemplo anterior, "edad", "nombre", "pi", "algo" y "bandera" son los nombr
 
 Es importante tener en cuenta que en Python no es necesario declarar explícitamente el tipo de dato que contendrá la variable, ya que Python es un lenguaje de tipado dinámico. Esto significa que el tipo de dato de la variable se infiere automáticamente según el valor que se le asigna.
 
+## Python es un lenguaje de programación CaseSensitive
+
+Python es un lenguaje de programación "case-sensitive". Eso significa que distingue entre mayúsculas y minúsculas. Es decir, Python considera que las letras mayúsculas y minúsculas son diferentes. Aquí tienes un ejemplo para ilustrar esto:
+
+**Ejemplo: Variables con nombres similares pero con diferente capitalización**
+
+```python
+# Variables con nombres similares pero con diferente capitalización
+edad = 25
+Edad = 30
+
+# Las variables son diferentes debido a la capitalización
+print(edad)  # Imprime 25
+print(Edad)  # Imprime 30
+```
+
+En este ejemplo, `edad` y `Edad` son dos variables diferentes porque la primera letra tiene diferente capitalización.
+
 ## Tipos de datos básicos en Python
 
 Las variables pueden ser clasificadas según el tipo de dato que contegan. Esta clasificación permite que se puedan separa las variables en grupos con características y propiedades determinadas. De esta manera, los tipos de datos determinan los valores que puede o no tomar una variable y qué operaciones es posible realizar con ellas. 
