@@ -119,6 +119,27 @@ El tipado dinámico en Python proporciona flexibilidad y conveniencia, ya que te
 
 Sin embargo, el tipado dinámico también requiere que los programadores sean conscientes de los tipos de datos con los que están trabajando, ya que los errores de tipo pueden ocurrir si no se manejan adecuadamente.
 
+## Ten cuidado con las palabras reservadas 
+
+En Python, existen ciertas palabras que están reservadas para realizar funciones específicas en el lenguaje. Estas palabras reservadas tienen un significado especial y no pueden ser utilizadas como nombres de variables, funciones u otros identificadores en tu código. Intentar usar una palabra reservada como nombre de variable resultará en un error.
+
+Aquí hay algunas palabras reservadas comunes en Python:
+
+|                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|
+| and               | as                | assert            | break             |
+| class             | continue          | lambda            | def               |
+| elif              | else              | exec              | except            |
+| finally           | for               | from              | global            |
+| if                | import            | in                | is                |
+| not               | or                | pass              | print             |
+| raise             | return            | try               | while             |
+| with              | yield             |                   |                   |
+
+```python
+and = 5 # Esto genera una error
+```
+
 ____
 
 Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
