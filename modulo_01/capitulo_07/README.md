@@ -200,6 +200,53 @@ print(frutas)  # Imprime ['manzana', 'plátano', 'pera', 'uva', 'kiwi']
 
 Las listas son una herramienta versátil y poderosa en Python, utilizadas para manejar colecciones de datos de manera eficiente y flexible. Con estos métodos y funciones, los desarrolladores pueden manipular y trabajar con listas de manera efectiva en sus programas.
 
+## El método `sort()` y la función `sorted()`
+
+ En Python, tanto el método `sort()` como la función `sorted()` se utilizan para ordenar elementos en una lista. Sin embargo, hay diferencias clave en su comportamiento y cómo se aplican. Aquí tienes una explicación detallada de cada uno:
+
+### Método `sort()`:
+
+- **In-place:** El método `sort()` ordena la lista "in-place", lo que significa que modifica la lista original directamente.
+- **Modificación de la lista original:** La lista original se modifica, y no se crea una nueva lista.
+- **No devuelve un nuevo objeto:** No devuelve nada (`None`).
+- **Uso específico para listas:** Solo puede aplicarse a listas y no a otros tipos de secuencias.
+
+**Ejemplo:**
+
+```python
+mi_lista = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+mi_lista.sort()
+print(mi_lista)
+# Imprime: [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
+```
+
+### Función `sorted()`:
+
+- **Crea una nueva lista ordenada:** La función `sorted()` devuelve una nueva lista ordenada y no modifica la lista original.
+- **Puede trabajar con cualquier iterable:** No está limitada a listas y puede ordenar cualquier iterable, incluyendo tuplas, cadenas y más.
+- **Devuelve un nuevo objeto:** La función `sorted()` devuelve una nueva lista ordenada.
+
+**Ejemplo:**
+
+```python
+mi_lista = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+nueva_lista_ordenada = sorted(mi_lista)
+print(nueva_lista_ordenada)
+# Imprime: [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
+
+# La lista original no ha sido modificada
+print(mi_lista)
+# Imprime: [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+```
+
+### Resumen:
+
+- Usa `sort()` si deseas ordenar una lista existente y no necesitas conservar la lista original.
+- Usa `sorted()` si necesitas una nueva lista ordenada y quieres mantener la original sin cambios, o si estás trabajando con otros tipos de iterables.
+
+En resumen, la principal diferencia radica en el hecho de que `sort()` modifica la lista original, mientras que `sorted()` crea una nueva lista ordenada sin modificar la original.
+
+
 # tuplas
 
 ¡Claro! En Python, una tupla es una estructura de datos similar a una lista, pero con la diferencia principal de que las tuplas son inmutables. Esto significa que una vez que creas una tupla, no puedes modificar su contenido, agregar o eliminar elementos. Aquí tienes información sobre las tuplas, sus características principales, algunos métodos y funciones esenciales, así como ejemplos:
