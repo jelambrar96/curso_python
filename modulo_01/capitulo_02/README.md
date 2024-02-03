@@ -189,11 +189,19 @@ print("Hola, mundo")  # Este también es un comentario
 La segunda forma de hacer comentarios es utilizando tres comillas simples (```'''```) o tres comillas dobles (```"""```). Todo lo que esté dentro de estas comillas se considerará un comentario. Este tipo de comentario es útil para comentarios de varias líneas. Por ejemplo:
 
 ```python
+
 '''
 Este es un comentario
 de varias líneas
 en Python
 '''
+
+"""
+Este tambien 
+es un comentario
+de varias líneas
+"""
+
 print("Hola, mundo")
 ```
 
