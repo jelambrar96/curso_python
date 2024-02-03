@@ -47,6 +47,43 @@ Los datos de tipo string en Python representan secuencias de caracteres. Aquí t
 
 Estas son solo algunas de las operaciones comunes que puedes realizar con datos de tipo string en Python. Las cadenas son versátiles y ofrecen una amplia variedad de métodos y operadores para manipular y trabajar con texto de manera efectiva.
 
+## El operador slice [:]
+
+En Python, el operador de rebanado (slice) `[:]` se utiliza para extraer una porción (subcadena) de una cadena (string). El formato general es `cadena[inicio:fin]`, donde `inicio` es inclusivo y `fin` es exclusivo. Si alguno de ellos se omite, se asume que se refiere al principio o al final de la cadena, respectivamente. Aquí tienes ejemplos para ilustrar su uso:
+
+**Ejemplos de operador de slice en strings:**
+
+```python
+# Definir una cadena
+cadena = "Python es genial"
+
+# Obtener una porción desde el inicio hasta el índice 6 (sin incluir)
+porcion1 = cadena[:6]
+print(porcion1)  # Imprime "Python"
+
+# Obtener una porción desde el índice 7 hasta el final
+porcion2 = cadena[7:]
+print(porcion2)  # Imprime "es genial"
+
+# Obtener una porción desde el índice 7 hasta el índice 9 (sin incluir)
+porcion3 = cadena[7:9]
+print(porcion3)  # Imprime "es"
+
+# Utilizar índices negativos para contar desde el final
+porcion4 = cadena[-5:-1]
+print(porcion4)  # Imprime "geni"
+
+# Obtener toda la cadena (equivalente a cadena[:])
+copia_completa = cadena[:]
+print(copia_completa)  # Imprime "Python es genial"
+
+# Obtener una porción con un paso (cada segundo caracter)
+porcion_con_paso = cadena[::2]
+print(porcion_con_paso)  # Imprime "Pto sgnl"
+```
+
+Es importante tener en cuenta que el operador de slice no modifica la cadena original, sino que crea una nueva cadena con la porción solicitada. Esto hace que sea una herramienta útil para trabajar con subcadenas en Python.
+
 ## Metodos de los datos string
 
 Los datos de tipo string en Python tienen muchos métodos incorporados que facilitan la manipulación y transformación de cadenas. Aquí te presento algunos de los métodos más comunes con ejemplos:
