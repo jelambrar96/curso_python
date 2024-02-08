@@ -510,3 +510,10 @@ diferencia_simetrica = conjunto_a.symmetric_difference(conjunto_b)
 
 Los conjuntos son útiles para operaciones que involucran membresía, comparaciones y operaciones de conjuntos en matemáticas y ciencias de la computación. Su capacidad para contener elementos únicos y realizar operaciones eficientes los hace valiosos en diversas situaciones.
 
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
