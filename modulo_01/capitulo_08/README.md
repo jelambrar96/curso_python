@@ -2,6 +2,8 @@
 
 En Python, un diccionario es una estructura de datos que permite almacenar y organizar información en pares clave-valor. Aquí tienes información detallada sobre los diccionarios, sus características principales, operaciones, métodos y ejemplos de implementación:
 
+![](media/image_8_1.jpeg)
+
 **Características principales de los diccionarios en Python:**
 1. **Pares clave-valor:** Cada elemento en un diccionario consiste en un par clave-valor, donde la clave es única y asociada a un valor.
 2. **Mutabilidad:** Los diccionarios son mutables, lo que significa que puedes modificar, agregar o eliminar elementos después de su creación.
@@ -9,6 +11,9 @@ En Python, un diccionario es una estructura de datos que permite almacenar y org
 4. **No ordenados:** Los elementos en un diccionario no tienen un orden específico.
 
 **Operaciones comunes con diccionarios:**
+
+![](media/image_8_4.jpeg)
+
 1. **Acceso a elementos:** Puedes acceder a un valor utilizando su clave.
 2. **Modificación de valores:** Puedes modificar el valor asociado a una clave específica.
 3. **Adición de elementos:** Puedes agregar nuevos pares clave-valor al diccionario.
@@ -16,6 +21,9 @@ En Python, un diccionario es una estructura de datos que permite almacenar y org
 5. **Verificación de pertenencia:** Puedes verificar si una clave está presente en el diccionario.
 
 **Métodos y funciones principales para trabajar con diccionarios:**
+
+![](media/image_8_2.jpeg)
+
 
 1. **Creación de un diccionario:**
    - Ejemplo:
@@ -67,6 +75,9 @@ En Python, un diccionario es una estructura de datos que permite almacenar y org
 
 **Ejemplo de uso de diccionario:**
 
+![](media/image_8_3.jpeg)
+
+
 ```python
 # Creación de un diccionario
 persona = {'nombre': 'Juan', 'edad': 25, 'ciudad': 'Bogotá'}
@@ -90,3 +101,11 @@ pares = persona.items()  # pares es igual a [('nombre', 'Juan'), ('edad', 26), (
 ```
 
 Los diccionarios son herramientas poderosas y versátiles en Python, utilizadas para representar información estructurada y asociar claves con valores. Pueden ser implementados en una amplia variedad de situaciones para organizar y manipular datos de manera eficiente.
+
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
