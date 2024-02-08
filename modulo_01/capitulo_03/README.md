@@ -63,18 +63,9 @@ En Python, existe un tipo de datos Número para todas las operaciones que involu
 - Datos de tipo entero **int**. Este tipo de dato se utiliza para representar números enteros, positivos o negativos, sin parte decimal. Por ejemplo: 5, -3, 1000.
 - Datos de tipo flotante **float**. Los números de punto flotante se utilizan para representar números reales, es decir, aquellos que tienen una parte decimal. Por ejemplo: 3.14, -0.001, 2.0.
 - Datos de tipo complejo **complex**. Se utilizan para representar números que tengan una parte decimal y una parte imaginaria. Por ejemplo: 2.0 + 1.4j.
-
-### Datos de tipo cadena 
-
-Se utilizan para representar texto. Las cadenas de texto se pueden definir utilizando comillas simples (```''```) o dobles (```""```). Por ejemplo: ```"Hola, mundo"```, ```'Python es genial'```.
-
-### Datos de tipo boleano 
-
-Este tipo de dato solo puede tener dos valores: True (verdadero) o False (falso). Se utilizan para representar valores de verdad. Por ejemplo: True, False.
-
-### El tipo ```None```
-
-Este tipo de dato se utiliza para representar la ausencia de valor. Es útil cuando queremos inicializar una variable pero no queremos asignarle un valor específico en ese momento.
+- Datos de tipo cadena. Se utilizan para representar texto. Las cadenas de texto se pueden definir utilizando comillas simples (```''```) o dobles (```""```). Por ejemplo: ```"Hola, mundo"```, ```'Python es genial'```.
+- Datos de tipo boleano. Este tipo de dato solo puede tener dos valores: True (verdadero) o False (falso). Se utilizan para representar valores de verdad. Por ejemplo: True, False.
+- El tipo ```None```. Este tipo de dato se utiliza para representar la ausencia de valor. Es útil cuando queremos inicializar una variable pero no queremos asignarle un valor específico en ese momento.
 
 Además de estos tipos de datos básicos, Python también tiene estructuras de datos más complejas, como listas, tuplas, conjuntos y diccionarios, que permiten almacenar colecciones de datos. Pero de ellas hablaremos en otro capítulo. 
 
