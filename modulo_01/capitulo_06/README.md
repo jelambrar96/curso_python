@@ -196,3 +196,11 @@ Estos son solo algunos ejemplos de métodos de cadenas en Python. Puedes explora
 | translate()     | Devuelve una cadena traducida.                                 |
 | upper()         | Convierte una cadena a mayúsculas.                             |
 | zfill()         | Rellena la cadena con un número especificado de ceros al principio. |
+
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
