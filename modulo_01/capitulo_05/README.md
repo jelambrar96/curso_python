@@ -2,6 +2,8 @@
 
 ## Las operaciones básicas
 
+![](media/image_5_1.jpeg)
+
 Ya vimos en el capítulo 2 el operador asignación `=` el cual nos permite establecer el valor de una variable a un valor fijo. Éste no es el único operador que podemos implementar en Python. Python maneja muchos operadores para realizar operaciones aritméticas. En Python, los datos de tipo numérico admiten una variedad de operaciones matemáticas. Aquí tienes una descripción detallada de las operaciones que se pueden realizar con ejemplos:
 
 1. **Suma (+):** Se utiliza para sumar dos números.
@@ -62,6 +64,9 @@ potencia = a ** b  # El valor de potencia será 8
 
 ## Precedencia de operadores 
 
+![](media/image_5_6.jpeg)
+
+
 En Python, la precedencia de los operadores determina el orden en el que se evalúan las expresiones. Aquí tienes una lista de los operadores numéricos en Python ordenados por precedencia de mayor a menor:
 
 1. `**` (exponente)
@@ -119,6 +124,9 @@ Estos ejemplos deberían ayudarte a entender cómo se aplican los operadores num
 
 ## El paquete math: Algunas funciones bastante útiles.
 
+![](media/image_5_5.jpeg)
+
+
 Además de estas operaciones básicas, Python también proporciona funciones matemáticas incorporadas en el módulo `math` para realizar operaciones más avanzadas, como raíces cuadradas, funciones trigonométricas, logaritmos, etc. Aquí tienes una descripción detallada de algunas operaciones que se pueden realizar con el paquete `math` junto con ejemplos:
 
 1. **Raíz cuadrada:** La función `sqrt()` se utiliza para calcular la raíz cuadrada de un número.
@@ -163,6 +171,9 @@ Estos son solo algunos ejemplos de las operaciones que se pueden realizar con el
 En Python, los datos de tipo booleano representan valores de verdad, es decir, verdadero (`True`) o falso (`False`). Las operaciones con datos booleanos son esenciales para la toma de decisiones y el control de flujo en programas. Aquí tienes algunas operaciones y ejemplos:
 
 1. **Operadores de Comparación:**
+
+![](media/image_5_3.jpeg)
+
    
 - `==` (igual)
 - `!=` (no igual)
@@ -245,3 +256,10 @@ print(mayor_igual)  # Salida: False
 
 Estos son solo algunos ejemplos básicos de operaciones con datos booleanos en Python. Estas operaciones son fundamentales para construir expresiones lógicas y estructuras de control de flujo, como las declaraciones `if`, `else` y `while`.
 
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
