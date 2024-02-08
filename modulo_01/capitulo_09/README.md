@@ -4,6 +4,10 @@ Un condicional en programación es una estructura que permite que un programa to
 
 ### Estructura básica de un condicional en Python:
 
+![](media/image_9_1.jpeg)
+
+Esta es la estructura básica de un condicional en python. La condición es una expresión cuyo resultado puede ser interpretado como `True` o `False`. Los bloques son corresponden a las expresiones que se ejecutarán si la condición es Verdadera o Falsa.
+
 ```python
 if condicion:
     # Bloque de código si la condición es verdadera
@@ -11,7 +15,23 @@ else:
     # Bloque de código si la condición es falsa
 ```
 
+Nota la sangría (muchas veces llamado indentado) de los bloques de código. La indentación en Python es un aspecto fundamental de la sintaxis del lenguaje y se utiliza para estructurar el código de manera significativa. En Python, la indentación se refiere a la cantidad de espacios o tabulaciones que preceden a una línea de código. La indentación se usa para delimitar bloques de código dentro de estructuras de control, funciones, clases y otros bloques de código.
+
+Si no aplicas el sangrado en una expresión de condicional se generará un error. 
+
+```python
+if True: 
+print("Esto va a generar un error" ) # Esto va a generar un error
+```
+
+```python
+if True: 
+    print("Esto funciona" ) # imprime "Esto funciona" 
+```
+
 ### Funcionamiento de un condicional:
+
+![](media/image_9_2.jpeg)
 
 1. **Evaluación de la condición:** Se evalúa la expresión booleana después del `if`.
 2. **Ejecución del bloque correspondiente:** Si la condición es `True`, se ejecuta el bloque de código bajo el `if`; de lo contrario, se ejecuta el bloque bajo el `else`.
@@ -32,6 +52,8 @@ Un condicional en Python se considera verdadero (`True`) cuando la expresión bo
 - Evaluaciones de verdad (`True` es siempre verdadero).
 
 ### Ejemplos de condicionales en Python:
+
+![](media/image_9_3.jpeg)
 
 #### Ejemplo 1: Condición numérica
 
@@ -70,6 +92,9 @@ Los condicionales son esenciales para construir programas que pueden tomar decis
 
 ### Condicionales Anidados:
 
+![](media/image_9_7.jpeg)
+
+
 Los condicionales anidados se refieren a la inclusión de un condicional dentro de otro. Esto se hace al colocar un bloque `if` dentro de otro bloque `if` o `else`. Los condicionales anidados permiten evaluar múltiples condiciones de manera jerárquica.
 
 **Ejemplo de condicionales anidados:**
@@ -86,6 +111,9 @@ else:
 ```
 
 ### Condicionales en Cascada:
+
+![](media/image_9_6.jpeg)
+
 
 Los condicionales en cascada, también conocidos como `elif` (contracción de "else if"), permiten evaluar múltiples condiciones en secuencia sin necesidad de anidamiento excesivo. La palabra reservada `elif` se utiliza para agregar condiciones adicionales después de un `if` inicial.
 
@@ -110,6 +138,9 @@ En este ejemplo, cada bloque `elif` se evalúa solo si las condiciones anteriore
 
 ### Ejemplo combinando condicionales anidados y en cascada:
 
+![](media/image_9_5.jpeg)
+
+
 ```python
 temperatura = 28
 
@@ -130,6 +161,9 @@ En este ejemplo, se utiliza un condicional en cascada para evaluar diferentes ra
 Ambos conceptos, condicionales anidados y condicionales en cascada, son útiles para estructurar el flujo de control de un programa y tomar decisiones basadas en múltiples condiciones.
 
 ## El operador ternario 
+
+![](media/image_9_4.jpeg)
+
 
 En Python, el operador ternario es una forma concisa de escribir una expresión condicional en una sola línea. También se conoce como el operador condicional o expresión ternaria. Su sintaxis es la siguiente:
 
@@ -172,3 +206,10 @@ En este último ejemplo, el operador ternario se utiliza de manera anidada para 
 
 El operador ternario es una herramienta útil para escribir expresiones condicionales de forma más concisa, especialmente cuando el resultado de la condición es simple. Sin embargo, es importante no abusar de su uso para mantener la legibilidad del código.
 
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
