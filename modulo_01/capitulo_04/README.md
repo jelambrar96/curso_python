@@ -1,5 +1,8 @@
 # Capítulo 4. Introducción de datos desde la consola. La función ```input()```.
 
+![](media/image_4_1.jpeg)
+
+
 Ingresar valores por consola en una aplicación de consola es una parte fundamental de la programación, ya que permite la **interacción del usuario** con el programa. En Python, la capacidad de ingresar valores por consola es crucial para crear programas interactivos y dinámicos. Aquí tienes una descripción detallada de la importancia de ingresar valores por consola en una aplicación de consola y en Python:
 
 1. **Interactividad:** Al permitir que los usuarios ingresen valores por consola, los programas se vuelven interactivos, lo que significa que los usuarios pueden proporcionar información o tomar decisiones que afectan el comportamiento del programa.
@@ -9,6 +12,9 @@ Ingresar valores por consola en una aplicación de consola es una parte fundamen
 3. **Pruebas y depuración:** Al permitir la entrada por consola, los programadores pueden probar y depurar sus programas más fácilmente, ya que les permite ingresar valores específicos para verificar el comportamiento del programa en diferentes escenarios.
 
 ## La funcion ```input()```
+
+![](media/image_4_2.jpeg)
+
 
 En Python, la función `input()` se utiliza para recibir la entrada del usuario por consola. Por ejemplo:
 
@@ -22,6 +28,9 @@ En este ejemplo, el programa solicita al usuario que ingrese su nombre por conso
 En resumen, la entrada por consola es importante en Python y en la programación en general, ya que permite la interacción con el usuario, hace que los programas sean más flexibles y facilita las pruebas y la depuración.
 
 ## Tipos de datos y la función input()
+
+![](media/image_4_3.jpeg)
+
 
 En Python, cuando obtienes datos del usuario utilizando la función `input()`, estos datos se almacenan como cadenas de texto (strings). 
 
@@ -52,7 +61,16 @@ print(type(altura)) # Esto imprimirá <class 'float'>
 
 En este caso, el valor ingresado por el usuario se convierte a un número de punto flotante utilizando la función `float()`.
 
+![](media/image_4_4.jpeg)
+
 Es importante tener en cuenta que al realizar estas conversiones, debes asegurarte de que los datos ingresados por el usuario sean válidos para el tipo al que estás intentando convertirlos. Por ejemplo, si el usuario ingresa una cadena de texto que no representa un número válido, se producirá un error al intentar convertirla a un entero o un flotante.
 
 Al convertir datos de entrada de la función `input()` a valores numéricos, puedes realizar cálculos matemáticos con ellos o utilizarlos en cualquier contexto donde se requieran valores numéricos.
 
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
