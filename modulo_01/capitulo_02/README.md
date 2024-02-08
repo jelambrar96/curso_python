@@ -4,6 +4,8 @@ En este capítulo se presenta el primer paso para el aprendizaje de este lenguaj
 
 ## La función print()
 
+![](media/image_2_1.jpeg)
+
 ### Lo más básico
 
 La función ```print()``` en Python se utiliza para mostrar información en la consola o en otro dispositivo de salida. Puede imprimir cadenas de texto, variables, números y otros tipos de datos.
@@ -31,6 +33,9 @@ Hola mundo!
 
 ### Imprimiendo otros tipos de datos
 
+![](media/image_2_3.jpeg)
+
+
 Además de cadenas de texto la función print es capaz de imprimir números enteros y con parte decimas. También puede imprimir otros tipos de datos como **boolean**: ```True``` y ```False```
 
 ```python
@@ -54,6 +59,9 @@ False
 Note que cada funcion print imprime en una línea diferente. 
 
 ### Imprimiendo más de un dato a la vez
+
+![](media/image_2_2.jpeg)
+
 
 En el ejemplo anterior se utilizaron funciones ```print()``` para mostrar por pantalla una serie de datos. Sin embargo, la función ```print()``` es capaz de imprimir más de un dato a la vez. Para ello, basta con separar cada uno de los datos por comas, como se muestra en este ejemplo. 
 
@@ -112,6 +120,7 @@ En este caso, el guion ("-") se utiliza como separador en lugar del espacio en b
 
 ### Eliminando el salto de línea 
 
+
 En Python, el salto de línea en la función print() se maneja de forma automática al imprimir cada elemento. Por defecto, al imprimir un elemento, la función print() agrega un salto de línea al final.
 
 Por ejemplo:
@@ -146,6 +155,9 @@ En este caso, se utilizó un espacio en blanco como el carácter final en lugar 
 
 ### Imprimiendo otras cosas bombitas
 
+![](media/image_2_8.jpeg)
+
+
 Existen cadenas de más de una linea, la función ```print()``` puede imprimir datos de más de una linea. 
 
 ```python
@@ -175,6 +187,9 @@ line3
 ```
 
 ## Comentarios 
+
+![](media/image_2_6.jpeg)
+
 
 En Python, un comentario es una parte del código que no se ejecuta y se utiliza para hacer anotaciones o explicaciones sobre el código. Los comentarios son útiles para hacer que el código sea más legible para otros programadores (o para ti mismo en el futuro) y para explicar el propósito de ciertas partes del código.
 
