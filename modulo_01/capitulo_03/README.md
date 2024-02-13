@@ -4,9 +4,12 @@ En este capítulo vamos a trabajar con las variables en Python.
 
 ## Variables en Python
 
+![](media/image_3_1.jpeg)
+
+
 En programación, una variable es un **contenedor para almacenar datos**. Estos datos pueden ser de diferentes tipos, como números, cadenas de texto, listas, etc. Las variables se utilizan para almacenar información que puede cambiar durante la ejecución de un programa.
 
-En Python, crear una variable es muy sencillo. Simplemente eliges un nombre para la variable y luego le asignas un valor utilizando el operador de asignación (=). Por ejemplo:
+En Python, crear una variable es muy sencillo. Simplemente eliges un nombre para la variable y luego le asignas un valor utilizando el **operador de asignación** (`=`). Por ejemplo:
 
 ```python
 # Creando una variable llamada "edad" y asignándole el valor 25
@@ -29,7 +32,27 @@ En el ejemplo anterior, "edad", "nombre", "pi", "algo" y "bandera" son los nombr
 
 Es importante tener en cuenta que en Python no es necesario declarar explícitamente el tipo de dato que contendrá la variable, ya que Python es un lenguaje de tipado dinámico. Esto significa que el tipo de dato de la variable se infiere automáticamente según el valor que se le asigna.
 
+## Python es un lenguaje de programación CaseSensitive
+
+Python es un lenguaje de programación "case-sensitive". Eso significa que distingue entre mayúsculas y minúsculas. Es decir, Python considera que las letras mayúsculas y minúsculas son diferentes. Aquí tienes un ejemplo para ilustrar esto:
+
+**Ejemplo: Variables con nombres similares pero con diferente capitalización**
+
+```python
+# Variables con nombres similares pero con diferente capitalización
+edad = 25
+Edad = 30
+
+# Las variables son diferentes debido a la capitalización
+print(edad)  # Imprime 25
+print(Edad)  # Imprime 30
+```
+
+En este ejemplo, `edad` y `Edad` son dos variables diferentes porque la primera letra tiene diferente capitalización.
+
 ## Tipos de datos básicos en Python
+
+![](media/image_3_2.jpeg)
 
 Las variables pueden ser clasificadas según el tipo de dato que contegan. Esta clasificación permite que se puedan separa las variables en grupos con características y propiedades determinadas. De esta manera, los tipos de datos determinan los valores que puede o no tomar una variable y qué operaciones es posible realizar con ellas. 
 
@@ -40,22 +63,15 @@ En Python, existe un tipo de datos Número para todas las operaciones que involu
 - Datos de tipo entero **int**. Este tipo de dato se utiliza para representar números enteros, positivos o negativos, sin parte decimal. Por ejemplo: 5, -3, 1000.
 - Datos de tipo flotante **float**. Los números de punto flotante se utilizan para representar números reales, es decir, aquellos que tienen una parte decimal. Por ejemplo: 3.14, -0.001, 2.0.
 - Datos de tipo complejo **complex**. Se utilizan para representar números que tengan una parte decimal y una parte imaginaria. Por ejemplo: 2.0 + 1.4j.
-
-### Datos de tipo cadena 
-
-Se utilizan para representar texto. Las cadenas de texto se pueden definir utilizando comillas simples (```''```) o dobles (```""```). Por ejemplo: ```"Hola, mundo"```, ```'Python es genial'```.
-
-### Datos de tipo boleano 
-
-Este tipo de dato solo puede tener dos valores: True (verdadero) o False (falso). Se utilizan para representar valores de verdad. Por ejemplo: True, False.
-
-### El tipo ```None```
-
-Este tipo de dato se utiliza para representar la ausencia de valor. Es útil cuando queremos inicializar una variable pero no queremos asignarle un valor específico en ese momento.
+- Datos de tipo cadena. Se utilizan para representar texto. Las cadenas de texto se pueden definir utilizando comillas simples (```''```) o dobles (```""```). Por ejemplo: ```"Hola, mundo"```, ```'Python es genial'```.
+- Datos de tipo boleano. Este tipo de dato solo puede tener dos valores: True (verdadero) o False (falso). Se utilizan para representar valores de verdad. Por ejemplo: True, False.
+- El tipo ```None```. Este tipo de dato se utiliza para representar la ausencia de valor. Es útil cuando queremos inicializar una variable pero no queremos asignarle un valor específico en ese momento.
 
 Además de estos tipos de datos básicos, Python también tiene estructuras de datos más complejas, como listas, tuplas, conjuntos y diccionarios, que permiten almacenar colecciones de datos. Pero de ellas hablaremos en otro capítulo. 
 
 ## Conocer el tipo de dato de una variable: la función ```type()```
+
+![](media/image_3_3.jpeg)
 
 En Python, la función `type()` se utiliza para obtener el tipo de datos de un objeto. Puedes pasar cualquier objeto como argumento a la función `type()` y te devolverá el tipo de datos al que pertenece ese objeto.
 
@@ -76,6 +92,9 @@ En este ejemplo, la función `type()` se utiliza para imprimir el tipo de datos 
 La función `type()` es útil cuando necesitas verificar el tipo de datos de un objeto en Python, lo que puede ser útil en situaciones donde necesitas asegurarte de que estás trabajando con el tipo de datos correcto.
 
 ## Conversión de tipo de datos
+
+![](media/image_3_4.jpeg)
+
 
 En Python, el cambio de tipo se refiere a la conversión de un tipo de datos a otro. Python proporciona varias funciones integradas para realizar conversiones de tipo. Aquí tienes una descripción detallada de algunas de las conversiones de tipo más comunes:
 
@@ -103,6 +122,9 @@ El cambio de tipo es una herramienta útil para manipular datos en Python y aseg
 
 ## Una característica de Python: El tipado dinámico. 
 
+![](media/image_3_5.jpeg)
+
+
 En Python, el tipado dinámico se refiere a la capacidad del lenguaje para asignar automáticamente el tipo de datos a una variable en tiempo de ejecución. Esto significa que en Python no es necesario declarar explícitamente el tipo de una variable al crearla; el tipo de la variable se infiere automáticamente según el valor que se le asigna.
 
 Por ejemplo, en Python puedes hacer lo siguiente:
@@ -118,6 +140,30 @@ En este ejemplo, la variable `x` cambia de tipo dinámicamente a medida que se l
 El tipado dinámico en Python proporciona flexibilidad y conveniencia, ya que te permite escribir código de manera más concisa y centrarte en la lógica del programa en lugar de preocuparte por los tipos de datos.
 
 Sin embargo, el tipado dinámico también requiere que los programadores sean conscientes de los tipos de datos con los que están trabajando, ya que los errores de tipo pueden ocurrir si no se manejan adecuadamente.
+
+## Ten cuidado con las palabras reservadas 
+
+![](media/image_3_6.jpeg)
+
+
+En Python, existen ciertas palabras que están reservadas para realizar funciones específicas en el lenguaje. Estas palabras reservadas tienen un significado especial y no pueden ser utilizadas como nombres de variables, funciones u otros identificadores en tu código. Intentar usar una palabra reservada como nombre de variable resultará en un error.
+
+Aquí hay algunas palabras reservadas comunes en Python:
+
+|                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|
+| and               | as                | assert            | break             |
+| class             | continue          | lambda            | def               |
+| elif              | else              | exec              | except            |
+| finally           | for               | from              | global            |
+| if                | import            | in                | is                |
+| not               | or                | pass              | print             |
+| raise             | return            | try               | while             |
+| with              | yield             |                   |                   |
+
+```python
+and = 5 # Esto genera una error
+```
 
 ____
 

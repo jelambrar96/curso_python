@@ -39,6 +39,9 @@ En resumen, la **legibilidad**, la amplia gama de **bibliotecas** y la **portabi
 
 ## Filosofía de Python
 
+
+![](media/serpiente_budista_2.jpeg)
+
 La filosofía de este lenguaje de programación se puede resumir en el **Zen de Python** para acceder a él, basta con escribir el comando ```import this``` dentro de Python. 
 
 ```bash
@@ -70,6 +73,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 >>> 
 ```
+
+![](media/serpiente_budista.jpeg)
 
 ### ¿Qué nos dice el zen de Python?
 
