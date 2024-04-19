@@ -252,3 +252,11 @@ while True:
 ```
 
 En este ejemplo, el bucle `while` se ejecutará indefinidamente hasta que el usuario ingrese 'n' como respuesta. Cuando se ingresa 'n', la declaración `break` se ejecuta, y el bucle se termina.
+
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
