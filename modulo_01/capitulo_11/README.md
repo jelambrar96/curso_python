@@ -87,6 +87,48 @@ print(f"Cociente: {cociente}, Resto: {resto}")
 
 Estos ejemplos ilustran diferentes aspectos de las funciones en Python, desde funciones simples hasta funciones con parámetros, retorno y valores predeterminados. Utilizar funciones es una práctica fundamental en programación que contribuye a la claridad y eficiencia del código.
 
+## Funciones llamando a otras funciones 
+
+En Python, es completamente posible que una función llame a otras funciones. Esto se logra simplemente escribiendo el nombre de la función que deseas llamar dentro del cuerpo de otra función. Cuando la función en ejecución encuentra la llamada a otra función, se detiene temporalmente, ejecuta la función llamada y luego continúa desde donde se detuvo.
+
+Aquí tienes un par de ejemplos para ilustrar esto:
+
+### Ejemplo 1: Función que llama a otra función
+
+```python
+def funcion_principal():
+    print("Inicio de la función principal")
+    funcion_secundaria()
+    print("Fin de la función principal")
+
+def funcion_secundaria():
+    print("Esta es la función secundaria")
+
+# Llamada a la función principal
+funcion_principal()
+```
+
+En este ejemplo, `funcion_principal` llama a `funcion_secundaria`. Cuando se ejecuta `funcion_principal`, imprimirá "Inicio de la función principal", luego llamará a `funcion_secundaria`, que imprimirá "Esta es la función secundaria", y finalmente imprimirá "Fin de la función principal".
+
+### Ejemplo 2: Funciones anidadas
+
+```python
+def funcion_principal():
+    print("Inicio de la función principal")
+
+    def funcion_interna():
+        print("Esta es una función interna")
+
+    funcion_interna()
+    print("Fin de la función principal")
+
+# Llamada a la función principal
+funcion_principal()
+```
+
+En este segundo ejemplo, tenemos una función anidada dentro de `funcion_principal` llamada `funcion_interna`. Cuando se llama a `funcion_principal`, primero imprimirá "Inicio de la función principal", luego ejecutará `funcion_interna`, que imprimirá "Esta es una función interna", y finalmente imprimirá "Fin de la función principal".
+
+Estos ejemplos muestran cómo las funciones en Python pueden llamar a otras funciones, lo que permite organizar y modularizar el código de manera efectiva.
 
 ## Funciones recursivas 
 
