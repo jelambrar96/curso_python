@@ -1,3 +1,3 @@
 ## Ejercicio 3.2
  
-# Crea la variable 'Celular', asignale tu numero de telefono e imprime el resultado.
+# Crea la variable 'temperatura', asignale la temperatura ambiente de donde estas e imprime el resultado.
