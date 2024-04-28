@@ -2,6 +2,8 @@
 
 En programación, una función es un bloque de código reutilizable que realiza una tarea específica. Las funciones se utilizan para dividir el código en partes más pequeñas y manejables, lo que facilita el desarrollo, la depuración y la reutilización del código.
 
+![](media/image_11_1.jpeg)
+
 ### Estructura básica de una función en Python:
 
 ```python
@@ -24,6 +26,8 @@ def nombre_de_funcion(parametro1, parametro2, ...):
 4. **Mejora la legibilidad:** Hace el código más comprensible y mantenible al dividir tareas complejas en pasos más simples.
 
 ### Ejemplos de funciones en Python:
+
+![](media/image_11_3.jpeg)
 
 #### Ejemplo 1: Función sin parámetros ni retorno
 
@@ -83,8 +87,52 @@ print(f"Cociente: {cociente}, Resto: {resto}")
 
 Estos ejemplos ilustran diferentes aspectos de las funciones en Python, desde funciones simples hasta funciones con parámetros, retorno y valores predeterminados. Utilizar funciones es una práctica fundamental en programación que contribuye a la claridad y eficiencia del código.
 
+## Funciones llamando a otras funciones 
+
+En Python, es completamente posible que una función llame a otras funciones. Esto se logra simplemente escribiendo el nombre de la función que deseas llamar dentro del cuerpo de otra función. Cuando la función en ejecución encuentra la llamada a otra función, se detiene temporalmente, ejecuta la función llamada y luego continúa desde donde se detuvo.
+
+Aquí tienes un par de ejemplos para ilustrar esto:
+
+### Ejemplo 1: Función que llama a otra función
+
+```python
+def funcion_principal():
+    print("Inicio de la función principal")
+    funcion_secundaria()
+    print("Fin de la función principal")
+
+def funcion_secundaria():
+    print("Esta es la función secundaria")
+
+# Llamada a la función principal
+funcion_principal()
+```
+
+En este ejemplo, `funcion_principal` llama a `funcion_secundaria`. Cuando se ejecuta `funcion_principal`, imprimirá "Inicio de la función principal", luego llamará a `funcion_secundaria`, que imprimirá "Esta es la función secundaria", y finalmente imprimirá "Fin de la función principal".
+
+### Ejemplo 2: Funciones anidadas
+
+```python
+def funcion_principal():
+    print("Inicio de la función principal")
+
+    def funcion_interna():
+        print("Esta es una función interna")
+
+    funcion_interna()
+    print("Fin de la función principal")
+
+# Llamada a la función principal
+funcion_principal()
+```
+
+En este segundo ejemplo, tenemos una función anidada dentro de `funcion_principal` llamada `funcion_interna`. Cuando se llama a `funcion_principal`, primero imprimirá "Inicio de la función principal", luego ejecutará `funcion_interna`, que imprimirá "Esta es una función interna", y finalmente imprimirá "Fin de la función principal".
+
+Estos ejemplos muestran cómo las funciones en Python pueden llamar a otras funciones, lo que permite organizar y modularizar el código de manera efectiva.
 
 ## Funciones recursivas 
+
+![](media/image_11_5.jpeg)
 
 Una función recursiva es aquella que se llama a sí misma durante su propia ejecución. Estas funciones pueden ser una forma elegante y poderosa de abordar problemas que se pueden dividir en casos más pequeños y similares al problema original.
 
@@ -159,6 +207,8 @@ Estos ejemplos muestran cómo las funciones recursivas pueden abordar problemas 
 
 ## Modularidad
 
+![](media/image_11_7.jpeg)
+
 La modularidad se refiere a la práctica de dividir un programa en partes más pequeñas y manejables llamadas módulos. Estos módulos contienen funciones, variables y código relacionado que cumplen una tarea específica. La modularidad en Python facilita el desarrollo, la mantenibilidad y la reutilización del código.
 
 ### Principios de la modularidad en Python:
@@ -204,6 +254,8 @@ En este ejemplo, `mi_modulo.py` actúa como un módulo que contiene funciones de
 
 Los paquetes son una extensión de la modularidad que agrupa varios módulos relacionados en directorios. La estructura de paquetes facilita la organización de proyectos más grandes.
 
+![](media/image_11_2.jpeg)
+
 #### Ejemplo de estructura de paquete:
 
 ```
@@ -228,6 +280,8 @@ En este ejemplo, `paquete` es un paquete que contiene dos módulos (`modulo1.py`
 La modularidad es una práctica esencial en Python que contribuye a la claridad y eficiencia del código, especialmente en proyectos de tamaño considerable.
 
 ### El archivo `__init__.py`
+
+![](media/image_11_4.jpeg)
 
 El archivo `__init__.py` se utiliza para indicar que un directorio es un paquete de Python. Su presencia en un directorio convierte ese directorio en un paquete reconocido por Python, permitiendo la importación de módulos desde ese directorio.
 
@@ -267,6 +321,8 @@ Cuando ejecutas `script_principal.py`, verás que se imprime el mensaje del arch
 
 ### Otras funciones de `__init__.py`:
 
+![](media/image_11_6.jpeg)
+
 1. **Definir variables o funciones globales para el paquete:**
    ```python
    # __init__.py
@@ -303,3 +359,11 @@ Cuando ejecutas `script_principal.py`, verás que se imprime el mensaje del arch
    Puedes almacenar configuraciones iniciales en `__init__.py` para que estén disponibles para otros módulos del paquete.
 
 En resumen, el archivo `__init__.py` en un directorio indica que ese directorio es un paquete de Python. Puede contener código de inicialización, variables globales y otras configuraciones que se ejecutan o están disponibles al importar el paquete.
+
+____
+
+Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
+
+Enero 2024
