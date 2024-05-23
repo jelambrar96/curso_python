@@ -1,0 +1,10 @@
+"""
+Se tiene una  bolsa llena de bolitas
+4 bolitas rojas
+3 bolitas verdes
+1 bolita blanca
+2 bolitas azules
+2 bolitas amarillas
+
+escribe un codigo que seleccione al azar una bolita
+"""
