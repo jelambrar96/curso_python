@@ -1,0 +1,6 @@
+Hola soy un archivo txt
+Hola de nuevo
+Adios
+Hola de nuevo
+Adios de nuevo
+He vuelto

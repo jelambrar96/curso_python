@@ -1,0 +1,1 @@
+# lee archivo.yaml e imprime la configuracion en formato json
