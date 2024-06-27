@@ -1,26 +1,14 @@
-import http.client
-import json
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
-# Conectar al servidor
-conn = http.client.HTTPSConnection("www.example.com")
+class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type", "text/html")
+        self.end_headers()
+        self.wfile.write(b"Hello, world!")
 
-# Crear los datos para enviar
-payload = json.dumps({
-    'username': 'example_user',
-    'password': 'example_password'
-})
-
-# Enviar una solicitud POST
-headers = {'Content-type': 'application/json'}
-conn.request("POST", "/login", body=payload, headers=headers)
-
-# Obtener la respuesta
-response = conn.getresponse()
-print(response.status, response.reason)
-
-# Leer el contenido de la respuesta
-data = response.read()
-print(data)
-
-# Cerrar la conexión
-conn.close()
+# Configurar y ejecutar el servidor
+server_address = ('', 8000)
+httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
+print("Server running on port 8000...")
+httpd.serve_forever()
