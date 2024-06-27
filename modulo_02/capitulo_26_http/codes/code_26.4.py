@@ -1,14 +1,18 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.cookies import SimpleCookie
 
-class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-type", "text/html")
-        self.end_headers()
-        self.wfile.write(b"Hello, world!")
+# Crear una cookie
+cookie = SimpleCookie()
+cookie["username"] = "example_user"
+cookie["username"]["domain"] = "example.com"
+cookie["username"]["path"] = "/"
 
-# Configurar y ejecutar el servidor
-server_address = ('', 8000)
-httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
-print("Server running on port 8000...")
-httpd.serve_forever()
+# Imprimir la cookie
+print(cookie.output())
+
+# Leer una cookie
+cookie_string = "username=example_user"
+cookie = SimpleCookie()
+cookie.load(cookie_string)
+
+# Obtener el valor de la cookie
+print(cookie["username"].value)
