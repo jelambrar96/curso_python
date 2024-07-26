@@ -1,7 +1,9 @@
-# Escribe un programa que cree un archivo llamado trabajadores.csv.
-# El archivo debe contener las siguientes cabeceras: "Nombre", "Departamento", "Posición".
-# Añade al menos tres empleados con sus respectivos datos.
-# Datos de ejemplo:
+## Ejercicio 24.1
+
+#Escribe un programa que cree un archivo llamado trabajadores.csv.
+#El archivo debe contener las siguientes cabeceras: "Nombre", "Departamento", "Posición".
+#Añade al menos tres empleados con sus respectivos datos.
+#Datos de ejemplo:
 
 """
 Nombre,Departamento,Posición

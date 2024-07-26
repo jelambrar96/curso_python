@@ -1,8 +1,7 @@
-"""
-Eres profesor de una clase y tienes 12 estudiantes, 
+##Ejercicio 19.3
 
-Organizalos aleatoriamente en grupos de 3 estudiantes
-"""
+#Eres profesor de una clase y tienes 12 estudiantes, Organizalos aleatoriamente en grupos de 3 estudiantes
+
 
 import random
 
