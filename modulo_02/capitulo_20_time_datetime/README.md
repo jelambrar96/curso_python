@@ -1,4 +1,4 @@
-# capítulo 20: Manjejando intervalos de tiempo y fecha: El paquete `time` y `datetime`
+# capítulo 20: Manejando intervalos de tiempo y fecha: El paquete `time` y `datetime`
 
 # El paquete `time`
 
