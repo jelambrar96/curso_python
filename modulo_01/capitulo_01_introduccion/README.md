@@ -120,6 +120,9 @@ Aquí tienes una descripción detallada de cada uno de los principios:
 
 Estos principios del "Zen de Python" son una guía valiosa para los programadores que desean escribir código Python de alta calidad y seguir las mejores prácticas de programación.
 
+### Un pequeño mapa mental que resume el capítulo
+
+![mapa mental](media/mindmap_01.png)
 
 ____
 

@@ -258,6 +258,13 @@ Estos son solo algunos ejemplos básicos de operaciones con datos booleanos en P
 
 ____
 
+## Un mapa mental para resumir el capítulo
+
+![makmap](markmap/markmap.png)
+
+____
+
+
 Made with Love ❤️ by [@jelambrar96](https://github.com/jelambrar96)
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jelambrar1)
